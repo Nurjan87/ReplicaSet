@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: DaemonSet
+metadata:
+  name: ubuntu-ds
+  labels:
+    k8s-app: dameon-task
+spec:
+  selector:
+    matchLabels:
+      name: dameon-task
+  template:
+    metadata:
+      labels:
+        name: dameon-task
+    spec:
+      containers:
+      - name: dameon-task
+        image: ubuntu
+        
+
+
+

@@ -1,0 +1,10 @@
+Server:		10.3.240.10
+Address:	10.3.240.10#53
+
+Name:	nginx-dns.default.svc.cluster.local
+Address: 10.0.0.84
+Name:	nginx-dns.default.svc.cluster.local
+Address: 10.0.1.59
+Name:	nginx-dns.default.svc.cluster.local
+Address: 10.0.0.83
+
